@@ -44,8 +44,8 @@ hi Special term=bold cterm=NONE ctermbg=bg ctermfg=248
 " more syntax
 hi Underlined term=underline cterm=underline ctermbg=bg ctermfg=111
 hi Ignore term=NONE cterm=NONE ctermbg=bg ctermfg=16
-hi Error term=reverse cterm=NONE ctermbg=160 ctermfg=255
-hi Todo term=NONE cterm=NONE ctermbg=16 ctermfg=208
+hi Error term=reverse cterm=NONE ctermbg=235 ctermfg=1
+hi Todo term=NONE cterm=NONE ctermbg=235 ctermfg=10
 
 "
 hi ExtraWhitespace term=NONE cterm=NONE ctermbg=bg ctermfg=fg
