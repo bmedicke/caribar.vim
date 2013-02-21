@@ -44,7 +44,8 @@ hi Special term=bold cterm=NONE ctermbg=bg ctermfg=248
 " more syntax
 hi Underlined term=underline cterm=underline ctermbg=bg ctermfg=111
 hi Ignore term=NONE cterm=NONE ctermbg=bg ctermfg=16
-hi Error term=reverse cterm=NONE ctermbg=235 ctermfg=1
+hi Error term=reverse cterm=NONE ctermbg=237 ctermfg=9
+hi WarningMsg term=NONE cterm=NONE ctermbg=235 ctermfg=9
 hi Todo term=NONE cterm=NONE ctermbg=235 ctermfg=10
 
 "
@@ -85,11 +86,13 @@ hi TabLineFill term=reverse cterm=NONE ctermbg=16 ctermfg=16
 hi TabLineSel term=bold cterm=NONE ctermbg=59 ctermfg=255
 hi VertSplit term=reverse cterm=NONE ctermbg=237 ctermfg=233
 
-" more UI
-hi DiffAdd term=bold cterm=NONE ctermbg=0 ctermfg=118
-hi DiffChange term=bold cterm=NONE ctermbg=0 ctermfg=fg
-hi DiffDelete term=bold cterm=bold ctermbg=0 ctermfg=208
+" diffs
+hi DiffAdd term=bold cterm=NONE ctermbg=0 ctermfg=40
+hi DiffDelete term=bold cterm=bold ctermbg=0 ctermfg=160
+hi DiffChange term=bold cterm=NONE ctermbg=0 ctermfg=208
 hi DiffText term=reverse cterm=NONE ctermbg=0 ctermfg=fg
+
+" more UI
 hi FoldColumn term=NONE cterm=NONE ctermbg=16 ctermfg=61
 hi FoldeColumn term=NONE cterm=NONE ctermbg=bg ctermfg=fg
 hi Folded term=NONE cterm=NONE ctermbg=25 ctermfg=188
@@ -101,7 +104,6 @@ hi SpellLocal term=underline cterm=undercurl ctermbg=bg ctermfg=51
 hi SpellRare term=reverse cterm=undercurl ctermbg=bg ctermfg=201
 hi Title term=bold cterm=bold ctermbg=bg ctermfg=208
 hi VisualNOS term=bold,underline cterm=bold,underline ctermbg=bg ctermfg=fg
-hi WarningMsg term=NONE cterm=NONE ctermbg=bg ctermfg=196
 hi WildMenu term=NONE cterm=NONE ctermbg=233 ctermfg=255
 
 "" C/C++
