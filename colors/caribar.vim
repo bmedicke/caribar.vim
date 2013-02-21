@@ -89,6 +89,8 @@ hi VertSplit term=reverse cterm=NONE ctermbg=237 ctermfg=233
 " diffs
 hi DiffAdd term=bold cterm=NONE ctermbg=0 ctermfg=40
 hi DiffDelete term=bold cterm=bold ctermbg=0 ctermfg=160
+hi diffRemoved term=bold cterm=bold ctermbg=0 ctermfg=160 " ft-gitcommit
+hi diffAdded term=bold cterm=NONE ctermbg=0 ctermfg=40    " ft-gitcommit
 hi DiffChange term=bold cterm=NONE ctermbg=0 ctermfg=208
 hi DiffText term=reverse cterm=NONE ctermbg=0 ctermfg=fg
 
