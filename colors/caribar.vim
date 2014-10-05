@@ -14,6 +14,7 @@
 set background=dark
 hi clear
 let g:colors_name="caribar"
+set cursorline
 
 hi Normal term=NONE cterm=NONE ctermbg=233 ctermfg=255
 
@@ -64,8 +65,8 @@ hi PmenuThumb term=NONE cterm=NONE ctermbg=102 ctermfg=102
 
 " cursor
 hi Cursor term=NONE cterm=NONE ctermbg=145 ctermfg=16
-hi Cursorline term=underline cterm=underline ctermbg=233
-hi CursorLineNr term=underline cterm=NONE ctermbg=234 ctermfg=10
+hi Cursorline term=bold cterm=bold ctermbg=233
+hi CursorLineNr term=bold cterm=NONE ctermbg=234 ctermfg=10
 hi CursorColumn term=reverse cterm=NONE ctermbg=241 ctermfg=fg
 hi lCursor term=NONE cterm=NONE ctermbg=145 ctermfg=16
 hi ICursor term=NONE cterm=NONE ctermbg=145 ctermfg=fg
